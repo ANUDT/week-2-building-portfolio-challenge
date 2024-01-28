@@ -1,9 +1,25 @@
 img{
-    display: flex;
+    display:inline-block;
     width: 10;
     border-radius: 20px;
-    float:right;
     margin-right: 5px;
     min-height: 20%
     max-width: 100%
+}
+
+section {
+    background-color: gold;
+    color: azure;
+    padding: 20px;
+}
+
+footer {
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+div {
+    background-color: chartreuse;
+    display:block;
+    
 }
