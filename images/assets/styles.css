@@ -1,6 +1,9 @@
-img {
-    width: 50px;
+img{
+    display: flex;
+    width: 10;
     border-radius: 20px;
     float:right;
     margin-right: 5px;
-    height: 5px
+    min-height: 20%
+    max-width: 100%
+}
