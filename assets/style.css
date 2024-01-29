@@ -3,8 +3,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body {
-    background-color: rgb(red, green, blue);
+    background-color: #dfdf95;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
 }
+
 
 img {
     display:inline-block;
@@ -30,8 +35,9 @@ header{
     height: 100px;
     list-style-type: style 10px;
     color: rgb(153, 153, 172);
-    background-color: hsl(261, 68%, 52%);
-    padding:after 10px 20px;
+    background-color: #b0a9bb;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px;
 }
 
 footer {
@@ -83,7 +89,7 @@ card {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 4em;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
@@ -93,9 +99,16 @@ card {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 4em;
     width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+
+header li
+{
+    display-inline;
+    padding-left: 45px;
+    
 }
