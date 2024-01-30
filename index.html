@@ -14,58 +14,27 @@
   <header>
     <UL>
       <LI>  
-        <li><a href="#"class="active">HOME</a>a</li>
-        <li><a href="#">ABOUT ME</a>a</li>
-        <li><a href="#">WORK</a>a</li>
-        <li><a href="#">EDUCATION</a>a</li>
-        <li><a href="#">CONTACT</a>a</li>
+        <li><a href="#"class="active">HOME</li>
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">EDUCATION</a></li>
+        <li><a href="#">CONTACT</a></li>
       </LI>
     </UL>
   LETS CREATE THE HEADER
 
 <header>ABOUT ME</header>
+<div class="wrapper">
+  <div>One</div>
+  <img src="/images/avatar.avif" alt="figure"height="200%" width="100%">
 
-<div class="grid-container">
-  <div class="item item 1"> item 1</div>
-  <div>A <section>
-    <section>class="card">
-      <div class="HEADING TABS"></div>
-       <h1>Section class "container 1"</section>/h1> <header>MY PORTFOLIO</header>
-        <img src="/images/avatar.avif" alt="figure"height="200%" width="100%">
-          </section></div>
-  
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+  <div>Five</div>
+</div>
 
-  <div class="item item 2"> item 2</div>
-  <div>B <section>
-    <section>class="card">
-     <h2>Section class "container 2"</section>/h2>
-      <div class="ABOUT ME"></div>
-       <p>ABOUT ME</p>
-        <P>I love to learn coding</p>
-     </section></div>
-  
-
-  <div class="item item 3"> item 3</div>
-  <div>C <section>
-    <section>
-     <section>class="card">
-     <h3>Section class "container 3"</section>/h3>
-      <div class="WORK"></div>
-       <p>WORK EXPERIENCE</p>
-        <P>I worked for Coca Cola and Mondelez</P> 
-     </section>
-
-  <div class="item item 4"> item 4</div>
-  <div>D <section>
-    <section> 
-      <section>class="card">
-        <h4>Section class "container 4"</section>/h4>
-         <div class="EDUCATION"></div>
-          <p>EDUCATION</p>
-           <p>Completed Bootcamp Data Analyses, Power BI, Comptia A+, Microsoft Dynamics 365 and now working on </p>
-         </section>
-
-  
+<
 </div>
 
 </section>
@@ -79,4 +48,46 @@
 </html>
 </style>
 
+<!DOCTYPE html>
+<html></html>
+<head>
+<title>CSS Grids</title>
+<style>
+.wrapper {
+  display:grid;
+  grid-template-columns: 70% 30% ;
+}
+
+.wrapper  > div{
+  background: #eee;
+  padding: 10em;
+}
+.wrapper > div:nth-child(odd)
+background #ddd
+
+</style>
+<body>
+<div class="wrapper">
+  <div>
+I am happy to do this today 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis ducimus quidem culpa nihil id enim iste, voluptatem ipsum. Quo illum eius non facilis consequatur aspernatur optio libero accusantium distinctio enim amet aperiam vitae delectus, iusto a atque! Dolorem deleniti fuga consequuntur praesentium at in! Officia eos atque explicabo dolore illum ratione unde iusto a fugit, dolorum ea illo commodi ab beatae blanditiis nihil quo, eius eveniet excepturi dolorem libero sint! Perspiciatis, expedita officia porro animi quo eius quas veniam.
+  </div>
+  <div>
+Lets get this working
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus hic eius, odit nemo, asperiores dolor totam vel distinctio tempora quaerat quia eligendi culpa fuga, excepturi adipisci deleniti cumque molestias.
+  </div>
+  <div>
+It is raining today
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis ducimus quidem culpa nihil id enim iste, voluptatem ipsum. Quo illum eius non facilis consequatur aspernatur optio libero accusantium distinctio enim amet aperiam vitae delectus, iusto a atque! Dolorem deleniti fuga consequuntur praesentium at in! Officia eos atque explicabo dolore illum ratione unde iusto a fugit, dolorum ea illo commodi ab beatae blanditiis nihil quo, eius eveniet excepturi dolorem libero sint! Perspiciatis, expedita officia porro animi quo eius quas veniam.
+  </div>
+  <div>
+Really like to sleep
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus hic eius, odit nemo, asperiores dolor totam vel distinctio tempora quaerat quia eligendi culpa fuga, excepturi adipisci deleniti cumque molestias.
+  </div>
+
+</div>
+</body>
+
+</head>
+</html>
 
