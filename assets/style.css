@@ -38,6 +38,7 @@ header{
     background-color: #b0a9bb;
     padding: 15px 20px;
     box-shadow: 0 0 3px;
+    float: left;
 }
 
 footer {
@@ -112,3 +113,50 @@ header li
     padding-left: 45px;
     
 }
+
+header li
+{
+    color: aqua;
+    text-decoration:none
+    padding hsl(65, 87%, 47%) 13px;
+}
+
+
+header li a :
+{
+    color: rgb(255, 162, 0);
+    text-decoration:none
+    padding hsl(264, 87%, 47%) 13px;
+    transition: .3s ease;
+
+}
+
+header li a :hover
+{
+    color: rgb(255, 0, 179);
+ }
+
+ header ul #contact a
+ {
+color: hotpink;
+background-color: darkcyan;
+border-radius: 35px;
+float: right;
+position: relative;
+top: -15px;
+ }
+
+ header ul #contact a :hover
+ {
+background-color: rgb(18, 212, 28);
+border-radius: 35px;
+float: right;
+position: relative;
+top: -15px;
+transition: .3e ease;
+ }
+
+ .active
+ {
+    color:darkblue;
+ }
