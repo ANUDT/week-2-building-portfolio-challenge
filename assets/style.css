@@ -1,7 +1,11 @@
 *{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media screen and(max-width: 720px) {
+background-color: #eeedee
+color: 25% 25% 25% 25%
+}
 body {
     background-color: hsl(162, 49%, 53%);
     padding: 0;
@@ -12,18 +16,26 @@ body {
 
 
 img {
-    display:inline-block;
-    width: 700%;
-    border-radius: 20px;
+    display:table-cell; 100%
+    width: 1000px;
+    border-radius: 50px;
     margin-right: 5px;
     min-height:100%;
+    image align-self: centre;
     padding: 10px 10px 20px 20px;
 }
+
 
 link {
     display: none;
 }
 
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 
 figure {
     width: 200px;
@@ -62,7 +74,7 @@ section {
 
 div {
     flex-basis: auto;
-    background-color: hsl(65, 87%, 47%);
+    background-color: hwb(65 6% 12%);
     margin: 20px 20px 15px 15px;
     width: 100px;
 }
@@ -74,80 +86,42 @@ h4 {
 }
 
 body {
-    background-color: hsl(69, 91%, 73%);
+    background-color: hwb(61 24% 9%);
 }
 
-card {
-    display: flex;
-    flex-wrap: wrap;
-    flex:1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 2px;
-}
+header li {
+    display-inline: center;
+    padding-inline: 800PX;
+   }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4em;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4em;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-header li
-{
-    display-inline;
-    padding-left: 45px;
-    
-}
-
-header li
-{
-    color: aqua;
+header li {
+    color: #36f443;
     text-decoration:none
-    padding hsl(65, 87%, 47%) 13px;
+    padding hsl(258, 66%, 54%) 13px;
 }
 
 
-header li a :
-{
-    color: rgb(255, 162, 0);
+header li a { 
+    color: rgb(23, 17, 7);
     text-decoration:none
     padding hsl(264, 87%, 47%) 13px;
-    transition: .3s ease;
-
+    transition: .3s ease
 }
 
-header li a :hover
-{
+header li a :hover {
     color: rgb(255, 0, 179);
  }
 
- header ul #contact a
- {
-color: hotpink;
-background-color: darkcyan;
+ header ul #contact a {
+color: rgb(77, 13, 226);
+background-color: rgb(77, 225, 175);
 border-radius: 35px;
 float: right;
 position: relative;
 top: -15px;
  }
 
- header ul #contact a :hover
- {
+ header ul #contact a :hover {
 background-color: rgb(18, 212, 28);
 border-radius: 35px;
 float: right;
@@ -156,7 +130,6 @@ top: -15px;
 transition: .3e ease;
  }
 
- .active
- {
+ .active {
     color:darkblue;
  }
