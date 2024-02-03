@@ -141,7 +141,7 @@ header ul #contact a :hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: hwb(199 75% 9%);
     color: rgb(2, 7, 7);
 }
@@ -156,28 +156,32 @@ header ul #contact a :hover {
 
 .portfolio-1 {
     background-image: 
-    background-size:contain;
+    background-size contain;
+    justify-content: center;
     margin: 5px;
 }
 
 .portfolio-2 {
-    background-image: url('../images/landscape.jpg');
+    background-image: url('../images/blur\ pastel.avif');
     background-size: "300px";
+    justify-content: center;
 }
 
 .portfolio-3 {
-    background-image: url('../images/landscape.jpg');
+    background-image: url('../images/blur\ pastel.avif');
     background-size: auto;
+    justify-content: center;
 }
 
 .portfolio-4 {
-    background-image: url('../images/landscape.jpg');
+    background-image: url('../images/blur\ pastel.avif');
     background-size: auto;
 }
 
 .portfolio-5 {
-    background-image: url('../images/landscape.jpg');
+    background-image: url('../images/blur\ pastel.avif');
     background-size: auto;
+    justify-content: center;
 }
 
 .w-100 {
