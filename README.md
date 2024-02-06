@@ -37,4 +37,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![image](https://github.com/ANUDT/week-2-challenge-building-portfolio/assets/152813453/a5a06831-8aa4-4a53-b346-1f1aecfa7c9a)
 
 
+ https://anudt.github.io/week-2-challenge-building-portfolio/
+
 
